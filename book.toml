@@ -1,0 +1,27 @@
+[book]
+authors = ["KING"]
+language = "en"
+multilingual = false
+src = "src"
+title = "TH3B00K"
+number_chapters = false
+
+[output.html]
+smart-punctuation = true
+mathjax-support = true
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.code.hidelines]
+python = "~"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
