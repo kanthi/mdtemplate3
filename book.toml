@@ -5,6 +5,7 @@ multilingual = false
 src = "src"
 title = "TH3B00K"
 number_chapters = false
+index = "README.md"
 
 [output.html]
 smart-punctuation = true
@@ -31,15 +32,17 @@ boost-paragraph = 1
 expand = true
 heading-split-level = 2
 
-# [output.pdf]
-# margin-left = 1.5
-# margin-right = 1.5
-# margin-top = 1.5
-# margin-bottom = 1.5
-# page-break = false
-# two-sided = false
-# paper-width = 8.5
-# paper-height = 11
-# preferred-dark-theme = true
-# table-of-contents = true
-# section-numbers = false
+[output.pdf]
+margin-left = 1.5
+margin-right = 1.5
+margin-top = 1.5
+margin-bottom = 1.5
+page-break = false
+two-sided = false
+paper-width = 8.5
+paper-height = 11
+preferred-dark-theme = false
+table-of-contents = true
+section-numbers = false
+print-toc = true
+no-page-break-before = ["Chapter"]
