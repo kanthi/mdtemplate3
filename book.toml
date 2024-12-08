@@ -10,10 +10,11 @@ number_chapters = false
 smart-punctuation = true
 mathjax-support = true
 numbered_chapters = false
+no-section-label = true
 
 [output.html.fold]
 enable = true
-level = 1
+level = 0
 
 [output.html.playground]
 editable = true
@@ -24,22 +25,21 @@ python = "~"
 
 [output.html.search]
 limit-results = 20
-use-boolean-and = true
 boost-title = 2
 boost-hierarchy = 2
 boost-paragraph = 1
 expand = true
 heading-split-level = 2
 
-[output.pdf]
-margin-left = 1.5
-margin-right = 1.5
-margin-top = 1.5
-margin-bottom = 1.5
-page-break = false
-two-sided = false
-paper-width = 8.5
-paper-height = 11
-preferred-dark-theme = true
-table-of-contents = true
-section-numbers = false
+# [output.pdf]
+# margin-left = 1.5
+# margin-right = 1.5
+# margin-top = 1.5
+# margin-bottom = 1.5
+# page-break = false
+# two-sided = false
+# paper-width = 8.5
+# paper-height = 11
+# preferred-dark-theme = true
+# table-of-contents = true
+# section-numbers = false
