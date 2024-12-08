@@ -9,6 +9,11 @@ number_chapters = false
 [output.html]
 smart-punctuation = true
 mathjax-support = true
+numbered_chapters = false
+
+[output.html.fold]
+enable = true
+level = 1
 
 [output.html.playground]
 editable = true
